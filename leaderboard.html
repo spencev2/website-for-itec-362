@@ -1,1 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Challenge Hub — Leaderboards</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="brand">Challenge Hub</div>
 
+      <nav class="navlinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="challenges.html">Challenges</a>
+        <a class="active" href="leaderboards.html">Leaderboards</a>
+        <a href="guides.html">Guides</a>
+      </nav>
+
+      <div class="actions">
+        <a class="btn btn--dark" href="submit.html">Submit Challenge</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page teal">
+    <div class="container lb-wrap">
+      <div class="lb-title">
+        <div class="icon">↻</div>
+        <div>
+          <h1 class="section-title" style="margin:0;">Leaderboards</h1>
+          <p class="section-sub" style="margin:4px 0 0;">See who’s dominating the challenge scene</p>
+        </div>
+      </div>
+
+      <section class="lb-cards" aria-label="Top Players">
+        <div class="lb-card">
+          <div class="star">★</div>
+          <p class="lb-name">EliteChallenger</p>
+          <p class="lb-points">118,920 <span>points</span></p>
+        </div>
+
+        <div class="lb-card big">
+          <div class="star">★</div>
+          <p class="lb-name">ProGamer2026</p>
+          <p class="lb-points">125,430 <span>points</span></p>
+        </div>
+
+        <div class="lb-card">
+          <div class="star">★</div>
+          <p class="lb-name">SpeedDemon</p>
+          <p class="lb-points">112,500 <span>points</span></p>
+        </div>
+      </section>
+
+      <div class="center-search">
+        <div class="searchbar" role="search" style="max-width:520px;">
+          <input type="text" placeholder="Enter username" aria-label="Enter username" />
+          <span class="icon">🔍</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
