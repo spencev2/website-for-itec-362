@@ -1,1 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Challenge Hub — Challenges</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="brand">Challenge Hub</div>
 
+      <nav class="navlinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a class="active" href="challenges.html">Challenges</a>
+        <a href="leaderboards.html">Leaderboards</a>
+        <a href="guides.html">Guides</a>
+      </nav>
+
+      <div class="actions">
+        <a class="btn btn--dark" href="submit.html">Submit Challenge</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page teal">
+    <div class="container">
+      <h1 class="section-title">All Challenges</h1>
+      <p class="section-sub">Browse and join challenges across all games</p>
+
+      <div class="row">
+        <div class="searchbar" role="search">
+          <input type="text" placeholder="Search Challenges" aria-label="Search Challenges" />
+          <span class="chip">All</span>
+          <span class="icon">🔍</span>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:14px;">
+        <div class="pill"><span>Popular</span><span class="arrow">↑</span></div>
+      </div>
+
+      <section class="grid" aria-label="Popular Challenges">
+        <article class="card">
+          <div class="card-top">
+            <h3>Fortnite</h3>
+            <span class="badge hard">Hard</span>
+          </div>
+          <h2>Heal Off</h2>
+          <p>Get a Victory Royale with no kills using only heals</p>
+          <div class="card-bottom">
+            <div class="points"><span class="trophy">🏆</span> 5,000 pts</div>
+            <button class="small-btn">Join</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Rocket League</h3>
+            <span class="badge medium">Medium</span>
+          </div>
+          <h2>No Boost</h2>
+          <p>Win a game with your boost button unbinded</p>
+          <div class="card-bottom">
+            <div class="points"><span class="trophy">🏆</span> 2,000 pts</div>
+            <button class="small-btn">Join</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-top">
+            <h3>Valorant</h3>
+            <span class="badge extreme">Extreme</span>
+          </div>
+          <h2>Marshal Only</h2>
+          <p>Win a game using only the marshal</p>
+          <div class="card-bottom">
+            <div class="points"><span class="trophy">🏆</span> 7,500 pts</div>
+            <button class="small-btn">Join</button>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
